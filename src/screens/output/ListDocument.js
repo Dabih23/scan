@@ -58,7 +58,7 @@ function ListDocument() {
             })
           }
         </ul>
-        <button className={style.button}>Паказать больше</button>
+        <button className={style.button}>Показать больше</button>
 	  </section>
 	);
   }

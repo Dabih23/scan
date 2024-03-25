@@ -1,5 +1,4 @@
 import { useContext, useEffect } from 'react';
-import style from './App.module.css';
 import PagesAuthorization from './screens/authorization/PagesAuthorization';
 import Main from './screens/main/Main';
 import { Route, Routes } from "react-router-dom";
