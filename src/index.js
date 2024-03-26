@@ -13,7 +13,7 @@ export const Context = createContext({
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React>
+  <React.StrictMode>
     <Context.Provider value={{
       store
     }}>
@@ -21,7 +21,7 @@ root.render(
         <App />
       </HashRouter>
     </Context.Provider>
-  </React>
+  </React.StrictMode>
 ); 
 
 
